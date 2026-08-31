@@ -16,7 +16,9 @@ void nhapSinhVien(SinhVien *sv){
     printf("Nhap ho ten: ");
     fgets(sv->name, sizeof(sv->name), stdin);
     sv->name[strcspn(sv->name, "\n")] = 0;
+    printf("Nhap MSSV:");
     scanf("%s", sv->mssv);
+    printf("Nhap Diem So: ");
     scanf("%f", &sv->point);
     getchar();
 }
@@ -114,10 +116,10 @@ int main(){
                 sapXepTheoDiem(ds, n);
                 break;
             case 0:
-                printf("Da Thoat Chuong Trinh");
+                printf("Da Thoat Chuong Trinh\n");
                 break;
             default:
-                printf("Ban Nhap Khong Hop Le, Vui Long Thu Lai");
+                printf("Ban Nhap Khong Hop Le, Vui Long Thu Lai\n");
             
         }
     } while(choice != 0);
