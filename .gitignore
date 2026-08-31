@@ -1,5 +1,6 @@
 # Bỏ qua tất cả file không có phần mở rộng (thường là file chạy)
-project*
+project1
+project12
 # Prerequisites
 *.d
 
