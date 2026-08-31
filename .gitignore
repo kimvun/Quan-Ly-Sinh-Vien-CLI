@@ -1,6 +1,5 @@
 # Bỏ qua tất cả file không có phần mở rộng (thường là file chạy)
-project1
-project12
+Project_CLI
 # Prerequisites
 *.d
 
